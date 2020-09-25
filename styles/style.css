@@ -20,13 +20,12 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*Яндекс практикум общие настройки*/
+
 .logo {
   width: 183px;
   z-index: 3;
- }
+}
 
-    /*Яндекс практикум для шапки настройки*/
 .logo_place_header { 
   position: absolute;
   height: 32px;
@@ -34,7 +33,7 @@
   left: 64px;
 }
 
-/*блок шапки*/
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -47,7 +46,7 @@
   overflow: hidden;
 }
 
-/*научиться учиться*/
+
 .header__title {
   left: 64px;
   margin: auto;
@@ -58,7 +57,6 @@
   width: 730px;
 }
 
-/*текст про современные  методы обучения*/
 .header__subtitle {
   width: 388px;
   left: 64px;
@@ -70,20 +68,19 @@
   z-index: 2;
 }
 
-/*ссылка переход узнать*/
 .header__link {
   color: #2f80ed;
   text-decoration: none;
   text-align: justify;
 }
 
-/*прозрачность ссылке при наведении*/
+
 .header__link:hover {
   opacity: .5;
   transition: .2s;
 }
 
-/*синий квадрат*/
+
 .header__square-pic {
   background-color:#2f80ed;
   height: 568px;
@@ -94,7 +91,6 @@
   animation: rotation 20s linear   infinite normal ;
 }
 
-/*опяять двойка*/
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -105,8 +101,6 @@
 }
 
 
-
-/*настройка большого блока с параграфами и остальным ______________________________________________________description*/
 .description {
   display: flex;
   margin-top: 100px;
@@ -118,7 +112,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-     
+
 .tow-columns__main-text {
   display: flex;
   flex-direction: column;
@@ -127,7 +121,6 @@
   min-width: 784px;        
 }
 
-      /*настройки текста параграфов */   
 .two-columns__paragraph {
   margin-bottom:30px;
   margin-top: 0;
@@ -136,17 +129,15 @@
   font-weight: normal;
 }  
 
-    /*псевдокласс для настройки отступа последнего параграфа*/   
 .two-columns__paragraph:last-of-type{
- margin-bottom: 0;
+  margin-bottom: 0;
 }
     
-    /* слово ввод во втором параграфе*/
 .two-columns__span-accent {
   font-weight:bold;
 }
 
-    /* Текст слева в колонке главные проблемы*/
+    
 .two-columns__brief {
   margin-top: 0;
   width: 175px;
@@ -156,10 +147,6 @@
   font-weight: normal;
 }
 
-
-/*technics_________________________________________________________________________________________________________*/
-/* первый новый блок__________________________________________________
-сделал заготовки необходимо выровнять*/
 .technics {
   align-content: center; 
   align-items: center;
@@ -170,13 +157,11 @@
   width: 80%;
 }
 
-/*настройки модификатора титла*/
 .section-title_place_technics{
   line-height: 1.15;
   font-size: 60px;
 }
 
-/*блок с карточками*/
 .cards {
   display: flex;
   flex-direction: row;
@@ -185,7 +170,6 @@
   justify-content: space-between;
 }
 
-/*титл карточек*/
 .cards__title {
   line-height: 1.15;
   font-size: 24px;
@@ -194,7 +178,6 @@
   margin-bottom: 16px;
 }
 
-/*текст карточек*/
 .cards__description {
   line-height: 23px;
   font-size: 18px;
@@ -203,12 +186,10 @@
   margin-bottom: 0;
 }
 
-/*настройка последнего элемента блока*/
 .cards__item:last-of-type{
 margin-right: auto;margin-left:80px;
 }
 
-/*карточки блока текникс*/
 .cards__item {
   width: 250px;
   display: flex;
@@ -229,7 +210,6 @@ margin-right: auto;margin-left:80px;
   margin-bottom: 43px;
 }
   
-/*video_________________________________________________________________________________________________________*/
 .video {
   align-content: center; 
   align-items: center;
@@ -266,7 +246,6 @@ margin-right: auto;margin-left:80px;
   margin-top: 20px;
 }
 
-/*oakley копия two columns _____________________________________________________________________________________*/
 .oakley {
   display: flex;
   padding-top: 160px;
@@ -282,7 +261,6 @@ margin-right: auto;margin-left:80px;
   width: 80%;
 }
 
-/*khan__________________________________________________________________________________________________________*/
 .khan {
   background-color: #F2F2F2;
   width: 100%;
@@ -294,7 +272,7 @@ margin-right: auto;margin-left:80px;
   padding-top: 105px;
   width: 80%;
   margin: auto;
- }
+}
 
 .khan__author {
   line-height: 42px;
@@ -344,8 +322,8 @@ margin-right: auto;margin-left:80px;
 }
 
 .khan__book-container {
- margin-top: 68px;
- display: flex;
+  margin-top: 68px;
+  display: flex;
 }
 
 .khan__buy-link {
@@ -367,7 +345,7 @@ margin-right: auto;margin-left:80px;
   justify-content: center;
   align-items: center;
 }
-  /*_____________________________________________________________Блок диджитс*/
+
 .digits {
   margin-top: 100px;
   align-items: center;
@@ -375,7 +353,6 @@ margin-right: auto;margin-left:80px;
   flex-direction: column;
 }
 
-/*заголовок цифры и факты*/
 .section-title {
   font-size: 60px;
   font-weight: bold;
@@ -385,7 +362,6 @@ margin-right: auto;margin-left:80px;
   width: 60%;
 }
 
-/*про учебу и мозг*/
 .section-subtitle {
   line-height: 34px;
   font-size: 24px;
@@ -395,7 +371,6 @@ margin-right: auto;margin-left:80px;
   text-align: center;
 }
 
-    /*таблица с карточками блока диджитс*/
 .table {
   align-content: center;
   display: flex;
@@ -404,15 +379,13 @@ margin-right: auto;margin-left:80px;
   justify-content: space-between;
   margin-top: 0;
   width: 1100px;
- }
+}
 
- /*карточка*/
 .table__cell {
   margin-top: 60px;
   width: 250px;
 }
 
-/*заголовок в карточке*/
 .table__heading {
   font-size: 24px;
   font-weight: bold;
@@ -421,7 +394,6 @@ margin-right: auto;margin-left:80px;
 	margin-top: 0;
 }
 
- /*текст в карточке*/
 .table__text {
   font-size: 18px;
 	font-weight: normal;
@@ -430,10 +402,9 @@ margin-right: auto;margin-left:80px;
 
 .table__text:last-of-type{
   margin-bottom: 0;
- }
+}
 
- 
-/*feinman*/
+
 .feinman {
   position: relative;
   width: 100%;
@@ -445,7 +416,7 @@ margin-right: auto;margin-left:80px;
   background-position: bottom left 0 ;
 }
 
- .feinman__title { 
+.feinman__title { 
   font-size: 120px;
   line-height: 1.15;
   font-weight: bold;
@@ -465,8 +436,6 @@ margin-right: auto;margin-left:80px;
 	margin: auto;
 	text-align: center;
 }
-/* ссылка подробнее*/
-
 
 .feinman__link {
   line-height: 51px;
@@ -486,7 +455,6 @@ margin-right: auto;margin-left:80px;
   transition: .2s;
 }
 
-/*Блок кауфман*/
 .kaufman {
   background-color: #1f1f1f;
   display:flex ;
@@ -511,7 +479,6 @@ margin-right: auto;margin-left:80px;
   margin-bottom: 90px;
 }
 
-/*синий треугольник*/
 .kaufman__triangle {
   height: 877px;
   position: absolute;
@@ -522,8 +489,6 @@ margin-right: auto;margin-left:80px;
   transform: rotate(-15deg);
   animation: rotation 20s linear   infinite normal ;
 }
-
-/*resources_____________________________________________________________________*/
 
 .resources {
   display: flex;
@@ -548,16 +513,13 @@ margin-top: 20px;
   height: 38px;
 }
 
-/* блок footer*/
 .footer {
 	background-color:#1f1f1f ;
 	color: white;
   width: 100%;
   min-height: 350px;
- 
 }
 
-/* колонки внутри футера*/
 .footer__columns {
 	display: flex;
 	flex-direction: row;
@@ -569,7 +531,6 @@ margin-top: 20px;
 	margin: auto;
 }
 
-/*заголовки колонок*/
 .footer__column-heading { 
   margin-bottom: 20px;
   margin-top: 0px;
@@ -578,7 +539,6 @@ margin-top: 20px;
 	font-weight: bold;
 }
 		
-/*пункты списков(колонок)*/
 .footer__column-link:hover {
   opacity: .5;
   transition: .2s;
@@ -599,7 +559,6 @@ margin-top: 20px;
   color: white;
 }
 
-/*блок с логотипом и подписью*/
 .footer__column_content-copyright {
 	width: 50%;
   display: flex;
@@ -608,23 +567,17 @@ margin-top: 20px;
   height: 250px;
 }
 
-/*Подпись*/
 .footer__author {
   line-height: 25px;
 	font-size: 18px;
 	font-weight: normal;
 }
 
-
-			
-/*Настройки размера иконок соцсетей*/
 .footer__social-icons {
 	height: 16px;
 	width: 16px;
 }
 
-		
-/*Белый логотип Яндекс*/
 .logo_place_footer {
   height: 35px;
 }
